@@ -7,4 +7,4 @@ COPY entrypoint.sh ./
 
 RUN apt-get update && apt-get install -y wget curl unzip iproute2 systemctl
 
-ENTRYPOINT [ "/usr/bin/bash", "start.sh" ]
+ENTRYPOINT [ "sh -x ", "entrypoint.sh" ]
