@@ -1,1 +1,0 @@
-sh -x entrypoint.sh
